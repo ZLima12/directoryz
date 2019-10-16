@@ -1,3 +1,3 @@
-export * from "./file-directory";
-export * from "./loadable-file-directory";
+export * from "./directory-listing";
+export * from "./loadable-directory";
 export * from "./object-directory";

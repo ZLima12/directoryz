@@ -1,11 +1,11 @@
-import { FileDirectory } from "./file-directory";
+import { DirectoryListing } from "./directory-listing";
 
 /**
- * LoadableFileDirectory is an abstract class that adds basic functionality to FileDirectory related to loading files.
- * When extending LoadableFileDirectory, you mustspecify a type parameter, T, which is the type of the data to be loaded.
+ * LoadableDirectory is an abstract class that adds basic functionality to DirectoryListing related to loading files.
+ * When extending LoadableDirectory, you must specify a type parameter, T, which is the type of the data to be loaded.
  * Additionally, you must implement the memthod loadEntry. Refer to the documentation for that method for help implmenting it.
  */
-export abstract class LoadableFileDirectory<T> extends FileDirectory
+export abstract class LoadableDirectory<T> extends DirectoryListing
 {
 	protected readonly loadedEntryMap: Map<string, T>;
 

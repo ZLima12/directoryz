@@ -2,10 +2,10 @@ import * as FS from "fs";
 import * as Path from "path";
 
 /**
- * The FileDirectory class simply retrieves a listing of all files with the provided extensions.
- * If you wish to load file contents, consider using a class that extends LoadableFileDirectory or creating one yourself..
+ * The DirectoryListing class simply retrieves a listing of all files with the provided extensions.
+ * If you wish to load file contents, consider using a class that extends LoadableDirectory or creating one yourself..
  */
-export class FileDirectory
+export class DirectoryListing
 {
 	private readonly directory: string;
 
