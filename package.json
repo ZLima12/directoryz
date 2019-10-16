@@ -1,0 +1,16 @@
+{
+  "name": "@zlima12/file-directories",
+  "version": "1.0.0",
+  "description": "A simple way to load files from directories.",
+  "main": "dist/index.js",
+  "author": "John Leuenhagen",
+  "license": "GPL-3.0",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@types/node": "^12.11.1",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "install": "tsc"
+  }
+}
