@@ -11,6 +11,6 @@
     "typescript": "^3.6.4"
   },
   "scripts": {
-    "install": "tsc"
+    "prepublish": "tsc"
   }
 }
