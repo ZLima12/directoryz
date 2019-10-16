@@ -83,7 +83,7 @@ export class FileDirectory
 
 		const supportedFiles = parsedFiles.filter(file => this.SupportedExtensions.has(file.ext))
 
-		const paths = supportedFiles.map(file => Path.join(this.Directory, file.name));
+		const paths = supportedFiles.map(file => Path.join(this.Directory, file.base));
 
 		this.filePaths = new Set(paths);
 	}
