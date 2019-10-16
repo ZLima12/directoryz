@@ -1,5 +1,5 @@
-import * as FS from "fs"
-import * as Path from "path"
+import * as FS from "fs";
+import * as Path from "path";
 
 /**
  * The FileDirectory class simply retrieves a listing of all files with the provided extensions.

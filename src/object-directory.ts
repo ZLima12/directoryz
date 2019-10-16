@@ -1,4 +1,4 @@
-import { LoadableFileDirectory } from "./loadable-file-directory"
+import { LoadableFileDirectory } from "./loadable-file-directory";
 
 /**
  * ObjectDirectory is an implementation of LoadableFileDirectory that loads JavaScript files with the require() function.
