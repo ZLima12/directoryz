@@ -8,7 +8,7 @@ import { LoadableDirectory } from "./loadable-directory";
 export class ObjectDirectory<T> extends LoadableDirectory<T>
 {
 	/**
-	 * @param directory - The directory containing objects. (If relative, relative to object-directory.ts).
+	 * @param directory - The directory containing objects. Must be an absolute path.
 	 * @param fileExtensions - Only files with these extensions will be loaded. Must include '.'.
 	 */
 	public constructor(directory: string, fileExtensions: Set<string> = new Set([".js"]))

@@ -22,7 +22,7 @@ export abstract class LoadableDirectory<T> extends DirectoryListing
 	{ return Array.from(this.LoadedEntryMap.values()) }
 
 	/**
-	 * @param directory - The directory containing files. (If relative, relative to loadable-file-directory.ts).
+	 * @param directory - The directory containing files. Must be an absolute path.
 	 * @param fileExtensions - Only files with these extensions will be loaded. Must include '.'.
 	 */
 	public constructor(directory: string, fileExtensions: Set<string>)
