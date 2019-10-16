@@ -45,6 +45,7 @@ export abstract class LoadableFileDirectory<T> extends FileDirectory
 	public async loadAllEntries(): Promise<void>
 	{
 		await this.refreshListing();
+		this.loadedEntryMap.clear();
 
 		const promises = new Array<Promise<any>>();
 		for (const file of this.FilePaths)
