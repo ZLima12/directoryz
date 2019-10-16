@@ -5,7 +5,7 @@ import * as Path from "path"
  * The FileDirectory class simply retrieves a listing of all files with the provided extensions.
  * If you wish to load file contents, consider using a class that extends LoadableFileDirectory or creating one yourself..
  */
-export default class FileDirectory
+export class FileDirectory
 {
 	private readonly directory: string;
 

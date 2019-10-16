@@ -1,11 +1,11 @@
-import LoadableFileDirectory from "./loadable-file-directory"
+import { LoadableFileDirectory } from "./loadable-file-directory"
 
 /**
  * ObjectDirectory is an implementation of LoadableFileDirectory that loads JavaScript files with the require() function.
  * By default, only .js files will be loaded. However, .json files may be loaded as well. Simply add ".js" to fileExtensions when instantiating.
  * Simply specify a type, T. Loaded files will be cast to this type.
  */
-export default class ObjectDirectory<T> extends LoadableFileDirectory<T>
+export class ObjectDirectory<T> extends LoadableFileDirectory<T>
 {
 	/**
 	 * @param directory - The directory containing objects. (If relative, relative to object-directory.ts).
