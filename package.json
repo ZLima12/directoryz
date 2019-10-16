@@ -1,6 +1,6 @@
 {
-  "name": "@zlima12/file-directories",
-  "version": "1.0.4",
+  "name": "@zlima12/directoryz",
+  "version": "1.0.0",
   "description": "A simple way to load files from directories.",
   "main": "dist/index.js",
   "author": "John Leuenhagen",
